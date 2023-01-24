@@ -84,3 +84,32 @@ if __name__ == "__main__":
     )
     p.stopSpark()
 ```
+
+### Output
+```bash
++--------------+--------------------+--------------+
+|kode_transaksi|   nama_barang_array|    prediction|
++--------------+--------------------+--------------+
+|          #131|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #203|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #210|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #225|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #231|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #233|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #265|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #273|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #330|[Celana Jeans Sob...|[Shampo Biasa]|
+|           #38|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #394|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #421|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #424|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #445|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #502|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #523|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #525|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #599|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #604|[Celana Jeans Sob...|[Shampo Biasa]|
+|          #643|[Celana Jeans Sob...|[Shampo Biasa]|
++--------------+--------------------+--------------+
+only showing top 20 rows
+```
