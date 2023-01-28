@@ -70,6 +70,9 @@ class prediction:
         df.coalesce(1)\
             .write.mode("overwrite")\
             .parquet("./result_parquet")
+        
+        df.toPandas()\
+            .to_json(orient="records", path_or_buf="./result_easy_json.json")
     
     def stopSpark(self):
         self.spark.sparkContext.stop()
